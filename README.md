@@ -16,11 +16,7 @@ Description : Check if the login works when a person inserts the correct Admin c
 
    Expected Results : Admin should be able to login and is taken to the Dashbord page.
    
-   Test data :
- 
-    username : admin@yourstore.com
-   
-    password : admin
+   Test data : username : admin@yourstore.com and password : admin
 
 ______________________________________________________________________________________________________________________________________________________________________
 
