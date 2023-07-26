@@ -8,7 +8,7 @@ Title : Test login with valid data.
 
 Description : Check if the login works when a person inserts the correct Admin credentials. 
 
- Steps to reproduce : 
+ Test steps : 
 
 1. Go to : "https://admin-demo.nopcommerce.com/
 2. Add a correct username and password
@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
    Description : Check if the user can add details into the Text 
 
-   Steps to reproduce : 
+   Test steps : 
 
    1. Go to "https://admin-demo.nopcommerce.com/Admin/Customer/List"
    2. Click on "Add New"
@@ -56,7 +56,7 @@ ________________________________________________________________________________
 
    Description: Test if the user can check/uncheck the Button
 
-   Steps to reproduce: 
+   Test steps : 
    
    1. Go to https://demoqa.com/elements
    2. Click on "Buttons"
