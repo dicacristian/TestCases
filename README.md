@@ -90,8 +90,9 @@ ________________________________________________________________________________
       
    ____________________________________________________________________________________________________________________________________________________________________
 
-   Test ID : 5
 
+   Test ID : 5
+  
    
    Title: Check size and colors functionality on clothes section
 
@@ -105,7 +106,7 @@ ________________________________________________________________________________
    4. Choose the Green color and M size
    5. Click on "Add to Cart"
 
-   Expected results: A new message: "You added Montana Wind Jacket to your shopping cart." : 
+   Expected result: A new message: "You added Montana Wind Jacket to your shopping cart." : 
 
    ![image](https://github.com/dicacristian/TestCases/assets/85904271/5cc5579f-3fcc-46bb-9c56-3ba8931c1306)
 
@@ -115,11 +116,44 @@ ________________________________________________________________________________
 
   ____________________________________________________________________________________________________________________________________________________________________
 
+   Test ID : 6
+
+   Title : Test the delete function from a product that we added to cart
+
+   Description : Trying to test the delete function from a product that was added before
+
+   Test steps : 
+
+   1. Go to https://magento.softwaretestingboard.com/
+   2. In the right side, click on shopping cart icon
+   3. Click on delete icon button
+
+   Expected result: A new message: "You have no items in your shopping cart."
+  ____________________________________________________________________________________________________________________________________________________________________
+
+   Test ID : 7
+
+   Title : The existence of a custom 404 error page
+
+   Description : I tried to modify the original page url to see if it shows the 404 error
+
+   Test steps: 
+
+   1. Go to https://magento.softwaretestingboard.com/
+   2. Write in the URL something that does not exist on the website
+
+
+   Expected result: An error page should appear directing the users to what they are looking for.
+
+   Test Data : https://magento.softwaretestingboard.com/123
+
+  ____________________________________________________________________________________________________________________________________________________________________
+
 
   Test Cases for search functionality on https://altex.ro/
 
 
-  Test ID : 6 
+  Test ID : 8
 
   Title: Test the search bar with a specific item 
 
@@ -141,7 +175,7 @@ ________________________________________________________________________________
 
   ____________________________________________________________________________________________________________________________________________________________________
 
-  Test ID : 7 
+  Test ID : 9
 
   Title : Test the disponibility and price filter 
 
@@ -163,7 +197,7 @@ ________________________________________________________________________________
    ____________________________________________________________________________________________________________________________________________________________________
 
 
-   Test ID : 8 
+   Test ID : 10
 
    Title : Test the search bar with a non-existent item
 
