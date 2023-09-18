@@ -4,7 +4,7 @@ You can find some test cases that I wrote while working on previous projects.
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-1️⃣ Test cases for Login and functionality on https://admin-demo.nopcommerce.com/
+ Test cases for Login and functionality on https://admin-demo.nopcommerce.com/
 
 Test ID : 1
 
@@ -24,9 +24,25 @@ Test steps :
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-  
+  Test ID : 2
 
-   Test ID : 2
+  Title : Test login with invalid data. 
+
+  Description : Check if the login works when a person inserts the incorrect Admin credentials. 
+
+  Test steps : 
+
+ 1. Go to : https://admin-demo.nopcommerce.com/
+ 2. Add a incorrect username and password
+ 3. Press "Login" Button
+
+ Expected Results : Admin should not be able to login and is taken to the Dashbord page.
+   
+ Test data : username : admin@store.com and password : admin123
+
+______________________________________________________________________________________________________________________________________________________________________
+
+   Test ID : 3
 
    Title : Add a new customer functionality on Customers section
 
@@ -55,7 +71,7 @@ ________________________________________________________________________________
    Environmnent : Google Chrome  
    ____________________________________________________________________________________________________________________________________________________________________
 
-   Test ID : 3
+   Test ID : 4
 
    
    Title: Check box functionality on Elements page
@@ -74,7 +90,7 @@ ________________________________________________________________________________
       
    ____________________________________________________________________________________________________________________________________________________________________
 
-   Test ID : 4
+   Test ID : 5
 
    
    Title: Check size and colors functionality on clothes section
@@ -96,3 +112,70 @@ ________________________________________________________________________________
  
    Environment : Google Chrome 
    
+
+  ____________________________________________________________________________________________________________________________________________________________________
+
+
+  Test Cases for search functionality on https://altex.ro/
+
+
+  Test ID : 6 
+
+  Title: Test the search bar with a specific item 
+
+  Description: Test the search bar by searching a specific item from the site https://altex.ro/
+
+  Test steps : 
+
+  1. Go to https://altex.ro/
+  2. Search a specific item in the search bar
+  3. Click on the search icon
+  4. Observe if user receives the correct results of the searching
+
+  Expected result: User should receive correct and valid results of searching a specific item by using the search bar
+
+  ![image](https://github.com/dicacristian/TestCases/assets/85904271/fa23fb59-f2c6-4521-a07a-9a31708292d5)
+
+
+  Test data: "iphone 14"
+
+  ____________________________________________________________________________________________________________________________________________________________________
+
+  Test ID : 7 
+
+  Title : Test the disponibility and price filter 
+
+  Description : Test the disponibility and price filter for a specific phone that we are looking for
+
+  Test steps :  
+
+  1. Go to https://altex.ro/
+  2. Hover the mouse on "Products"
+  3. Click on "Phones, Tablets", then click on "Telephones" 
+  4. In the left side, on availability section click on "News" section and at the price section click on "4000-5000"
+
+  Expected results: The user should see the phones based on the filters they have selected
+
+
+  ![image](https://github.com/dicacristian/TestCases/assets/85904271/4b3167f0-8e1e-4d00-b65a-29e9945f5b86)
+
+
+   ____________________________________________________________________________________________________________________________________________________________________
+
+
+   Test ID : 8 
+
+   Title : Test the search bar with a non-existent item
+
+   Description :  Test the search bar by searching an item that does not exist.
+
+   Test steps : 
+
+   1.  Go to https://altex.ro/
+   2.  Search a non-existent item in the search bar
+   3.  Press the enter button
+   4.  Observe if user receives no valid results and / or suggestions to improve searching
+
+   Expected result: User should receive no valid results of searching a non-existent item and / or suggestions to improve the searching.
+
+   Test data : unudoitrei
