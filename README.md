@@ -149,12 +149,29 @@ ________________________________________________________________________________
    Test Data : https://magento.softwaretestingboard.com/123
 
   ____________________________________________________________________________________________________________________________________________________________________
+   Test ID : 8 
+
+   Title : Funcitionality of the "Forgot Your Password?"
+
+   Description : Test the functionality to recover the password by using "Forgot your password" link. 
+
+   Test steps :  
+
+   1. Go to https://magento.softwaretestingboard.com/
+   2. Click sign in button
+   3. Press "Forgot your passowrd?" link
+   4. Observe if user receives an email to change the password
+
+  Expected result: User should receive an email to change / recover the password after pressing the "Forgot your passowrd?" link.
+
+  Test data : email : test@example.com & Password : test123
+  ____________________________________________________________________________________________________________________________________________________________________
 
 
   <strong>Test Cases for search functionality on https://altex.ro/</strong>.
 
 
-  Test ID : 8
+  Test ID : 9
 
   Title: Test the search bar with a specific item 
 
@@ -176,7 +193,7 @@ ________________________________________________________________________________
 
   ____________________________________________________________________________________________________________________________________________________________________
 
-  Test ID : 9
+  Test ID : 10
 
   Title : Test the disponibility and price filter 
 
@@ -198,7 +215,7 @@ ________________________________________________________________________________
    ____________________________________________________________________________________________________________________________________________________________________
 
 
-   Test ID : 10
+   Test ID : 11
 
    Title : Test the search bar with a non-existent item
 
