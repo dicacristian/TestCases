@@ -4,21 +4,27 @@ You can find some test cases that I wrote while working on previous projects.
 
 ______________________________________________________________________________________________________________________________________________________________________
 
+Test ID : 1
+
 Title : Test login with valid data. 
 
 Description : Check if the login works when a person inserts the correct Admin credentials. 
 
- Test steps : 
+Test steps : 
 
 1. Go to : "https://admin-demo.nopcommerce.com/
 2. Add a correct username and password
 3. Press "Login" Button
 
-   Expected Results : Admin should be able to login and is taken to the Dashbord page.
+ Expected Results : Admin should be able to login and is taken to the Dashbord page.
    
-   Test data : username : admin@yourstore.com and password : admin
+ Test data : username : admin@yourstore.com and password : admin
 
 ______________________________________________________________________________________________________________________________________________________________________
+
+  
+
+   Test ID : 2
 
    Title : Add a new customer functionality on Customers section
 
@@ -47,7 +53,9 @@ ________________________________________________________________________________
    Environmnent : Google Chrome  
    ____________________________________________________________________________________________________________________________________________________________________
 
+   Test ID : 3
 
+   
    Title: Check box functionality on Elements page
 
    Description: Test if the user can check/uncheck the Button
