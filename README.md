@@ -4,6 +4,8 @@ You can find some test cases that I wrote while working on previous projects.
 
 ______________________________________________________________________________________________________________________________________________________________________
 
+1️⃣ Test cases for Login and functionality on https://admin-demo.nopcommerce.com/
+
 Test ID : 1
 
 Title : Test login with valid data. 
@@ -12,7 +14,7 @@ Description : Check if the login works when a person inserts the correct Admin c
 
 Test steps : 
 
-1. Go to : "https://admin-demo.nopcommerce.com/
+1. Go to : https://admin-demo.nopcommerce.com/
 2. Add a correct username and password
 3. Press "Login" Button
 
@@ -70,4 +72,27 @@ ________________________________________________________________________________
 
    Environment : Mozilla Firefox
       
+   ____________________________________________________________________________________________________________________________________________________________________
 
+   Test ID : 4
+
+   
+   Title: Check size and colors functionality on clothes section
+
+   Description: Test if the user can choose the suggested colors and sizes
+
+   Test steps : 
+
+   1. Go to https://magento.softwaretestingboard.com/
+   2. Hover the mouse on "Men" section, after at "Tops" and then to the "Jackets"
+   3. Click on "Montana Wind Jacket"
+   4. Choose the Green color and M size
+   5. Click on "Add to Cart"
+
+   Expected results: A new message: "You added Montana Wind Jacket to your shopping cart." : 
+
+   ![image](https://github.com/dicacristian/TestCases/assets/85904271/5cc5579f-3fcc-46bb-9c56-3ba8931c1306)
+
+ 
+   Environment : Google Chrome 
+   
