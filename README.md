@@ -3,8 +3,8 @@
 You can find some test cases that I wrote while working on previous projects. 
 
 ______________________________________________________________________________________________________________________________________________________________________
-
- Test cases for Login and functionality on https://admin-demo.nopcommerce.com/
+ 
+<strong>Test cases for Login and functionality on https://admin-demo.nopcommerce.com/</strong>.
 
 Test ID : 1
 
@@ -90,9 +90,10 @@ ________________________________________________________________________________
       
    ____________________________________________________________________________________________________________________________________________________________________
 
+   <strong>Test Cases for https://magento.softwaretestingboard.com/</strong>.
 
    Test ID : 5
-  
+
    
    Title: Check size and colors functionality on clothes section
 
@@ -150,7 +151,7 @@ ________________________________________________________________________________
   ____________________________________________________________________________________________________________________________________________________________________
 
 
-  Test Cases for search functionality on https://altex.ro/
+  <strong>Test Cases for search functionality on https://altex.ro/</strong>.
 
 
   Test ID : 8
