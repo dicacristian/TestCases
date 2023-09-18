@@ -164,14 +164,53 @@ ________________________________________________________________________________
 
   Expected result: User should receive an email to change / recover the password after pressing the "Forgot your passowrd?" link.
 
-  Test data : email : test@example.com & Password : test123
+  Test data : email : test@example.com & Password : Test123##
   ____________________________________________________________________________________________________________________________________________________________________
+   Test ID : 9 
 
+   Title : Security password 
 
+   Description : Verify that the password section has norms of security such as Classes of characters, special characters and digits 
+
+   Test steps : 
+
+   1. Go to https://magento.softwaretestingboard.com/
+   2. On the right side, click on "Create an Account"
+   3. Scroll down until you see the password field
+   4. Write on password field 
+
+   Expected result: The password that we wrote it is a sure 
+    ![image](https://github.com/dicacristian/TestCases/assets/85904271/859468c3-30b7-4f9c-a1c3-cf6003d24656)
+
+   
+   Test data : "Test123##"
+  ____________________________________________________________________________________________________________________________________________________________________
+   Test ID : 10
+
+   Title : Create an account with the Personal/Sign-in Information
+
+   Description: Verification of the app if it let us to make an account with the same data that we have used before for account creation
+
+   Test steps: 
+   
+   1. Go to https://magento.softwaretestingboard.com/
+   2. On the right side, click on "Create an Account"
+   3. Write at first/last name, email and password with your test data
+   4. Click on "Create an account"
+
+   Expected result : A new message should appear : "There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account."  
+   after clicking on "Create an account" 
+   
+   ![image](https://github.com/dicacristian/TestCases/assets/85904271/98fb6117-0866-451c-a921-09a2edbabae1)
+
+   Test data : First name : test | Last name : 123 | email : joriji9192@viicard.com | Password : Test123##
+      
+   
+  ____________________________________________________________________________________________________________________________________________________________________
   <strong>Test Cases for search functionality on https://altex.ro/</strong>.
 
 
-  Test ID : 9
+  Test ID : 11
 
   Title: Test the search bar with a specific item 
 
@@ -193,7 +232,7 @@ ________________________________________________________________________________
 
   ____________________________________________________________________________________________________________________________________________________________________
 
-  Test ID : 10
+  Test ID : 12
 
   Title : Test the disponibility and price filter 
 
@@ -215,7 +254,7 @@ ________________________________________________________________________________
    ____________________________________________________________________________________________________________________________________________________________________
 
 
-   Test ID : 11
+   Test ID : 13
 
    Title : Test the search bar with a non-existent item
 
