@@ -5,6 +5,12 @@
 You can find some test cases that I wrote while working on previous projects. 
 ------
 
+# Testcases
+This is my first automation test with Cypress automation tool, a modern framework for automation testing. In this respect, I organized a tests suite for the website of the Faculty of History and Philosophy from Babeș-Bolyai University, Cluj-Napoca, Romania.
+
+
+
+------
 
 
 ______________________________________________________________________________________________________________________________________________________________________
