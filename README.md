@@ -275,3 +275,5 @@ ________________________________________________________________________________
    Expected result: User should receive no valid results of searching a non-existent item and / or suggestions to improve the searching.
 
    Test data : unudoitrei
+
+   ------
